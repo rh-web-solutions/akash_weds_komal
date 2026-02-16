@@ -1531,13 +1531,13 @@ form label {
   width: 50px;
   height: 50px;
   display: table;
-  background: rgba(0, 0, 0, 0.5);
+  background: #d9618f;
   color: #fff;
   text-align: center;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  border-radius: 4px;
+  border-radius: 50%;
 }
 .gototop a i {
   height: 50px;
