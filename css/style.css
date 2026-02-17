@@ -1841,6 +1841,12 @@ form label {
   padding-bottom: 2em !important;
 }
 
+.nav-item .active {
+  background-color: #46b8da !important;
+  color: #fff !important;
+  border: 2px solid #46b8da !important;
+}
+
 .fh5co-loader {
   position: fixed;
   left: 0px;
