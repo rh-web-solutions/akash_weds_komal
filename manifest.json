@@ -7,14 +7,14 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "https://rh-web-solutions.github.io/akash_weds_komal/images/colorinitials.png",
       "sizes": "192x192",
-      "type": "images/colorinitials.png"
+      "type": "image/png"
     },
     {
-      "src": "logo.png",
+      "src": "https://rh-web-solutions.github.io/akash_weds_komal/images/colorinitials.png",
       "sizes": "512x512",
-      "type": "images/colorinitials.png"
+      "type": "image/png"
     }
   ]
 }
