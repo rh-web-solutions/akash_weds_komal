@@ -19,6 +19,10 @@ body {
   background: #fff;
 }
 
+.pd-3 {
+  padding: 3em !important;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -458,6 +462,12 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-counter {
     height: auto;
   }
+  #fh5co-counter .event-wrap .event-col,
+#fh5co-event .event-wrap .event-col {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
 }
 
 .timeline {

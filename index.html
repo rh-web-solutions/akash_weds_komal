@@ -36,7 +36,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-	<link rel="stylesheet" href="css/style.css?v=2.7">
+	<link rel="stylesheet" href="css/style.css?v=2.8">
 
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
@@ -109,7 +109,7 @@
 					</div>
 					<div class="desc-bride">
 						<h3>Komal Ratnaparkhi</h3>
-						<p>Daughter of Subhash & Sunita Ratnaparkhi, Amravati Dist. Amravati</p>
+						<p>Daughter of Dr. Subhash & Sunita Ratnaparkhi, Amravati Dist. Amravati</p>
 					</div>
 				</div>
 			</div>
@@ -133,17 +133,21 @@
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
 									<h3>Wedding Ceremony</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>10:56 AM Vaishakh krishna Paksh Ashtami</span>
+									<div>
+										<div class="event-col">
+											<i class="icon-clock"></i>
+											<span>10:56 AM Vaishakh krishna Paksh Ashtami</span>
+										</div>
+										<div class="event-col">
+											<i class="icon-calendar"></i>
+											<span>Sunday 10</span>
+											<span>May, 2026</span>
+										</div>
 									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Sunday 10</span>
-										<span>May, 2026</span>
-									</div>
+				
 									<div>
 										<p>Naivaidyam Resort Wedding Hall, Amravati</p>
+		
 									</div>
 								</div>
 							</div>
@@ -170,7 +174,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div id="fh5co-couple-story">
 		<div class="container">
 			<div class="row">
@@ -299,6 +302,9 @@ Two hearts unite, one beautiful name.</p>
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="simply-countdown simply-countdown-one"></div>
+						<div class="text-center" style="position: absolute; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+								<a href="contact.html" class="btn btn-primary">Contact Us for any query</a>
+							</div>
 					</div>
 				</div>
 			</div>
@@ -353,23 +359,29 @@ Two hearts unite, one beautiful name.</p>
 	<script src="js/main.js"></script>
 
 	<script>
-    var d = new Date("2026-05-10T10:56:00+05:30");
-
-    // default example
+    // Set exact IST time manually
     simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
+        year: 2026,
+        month: 5,     // May
+        day: 10,
+        hours: 10,
+        minutes: 56,
+        seconds: 0,
+        enableUtc: false
     });
 
-    //jQuery example
     $('#simply-countdown-losange').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
+        year: 2026,
+        month: 5,
+        day: 10,
+        hours: 10,
+        minutes: 56,
+        seconds: 0,
         enableUtc: false
     });
 </script>
+
+
 
 	</body>
 </html>
