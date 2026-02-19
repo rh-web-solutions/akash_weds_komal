@@ -38,10 +38,13 @@ body {
   color: #cf6990;
   border: 1px solid #cf6990;
   background-color: transparent;
-  padding: 6px 12px;
+  padding: 6px 12px !important;
   font-size: 14px;
+  height: 30px;
   border-radius: 6px;
   transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
 }
 .btn-outline-primary:hover {
   color: #fff;
@@ -49,17 +52,15 @@ body {
   border-color: #cf6990;
 }
 
-
+ .phone{
+  display: flex;
+  justify-content: space-between;
+}
 
 @media screen and (max-width: 768px) {
   body {
     font-size: 16px;
   }
-  .phone{
-  font-size: 14px;
-  display: flex;
-  justify-content: space-between;
-}
 }
 
 .pd-3 {
