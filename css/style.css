@@ -1469,6 +1469,11 @@ form label {
     text-align: center;
   }
 }
+
+#fh5co-offcanvas a{
+  font-size: 25px;
+}
+
 #fh5co-footer .copyright .block {
   display: block;
 }
