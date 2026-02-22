@@ -1290,7 +1290,7 @@ form label {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   width: 100px;
   height: 100px;
 }
@@ -1470,10 +1470,6 @@ form label {
   }
 }
 
-#fh5co-offcanvas a{
-  font-size: 25px;
-}
-
 #fh5co-footer .copyright .block {
   display: block;
 }
@@ -1500,6 +1496,7 @@ form label {
 
 #fh5co-offcanvas a {
     padding: 10px !important;
+    font-size: 25px;
 }
 
 #fh5co-offcanvas {
@@ -1507,6 +1504,7 @@ form label {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   z-index: 1901;
   width: 100%;
   background: #000000b3;
