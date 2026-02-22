@@ -1489,6 +1489,12 @@ form label {
 
 #fh5co-offcanvas .active  a {
   color: #fff !important;
+  padding: 10px !important;
+  border-bottom: 3px solid #fff !important;
+}
+
+#fh5co-offcanvas a {
+    padding: 10px !important;
 }
 
 #fh5co-offcanvas {
