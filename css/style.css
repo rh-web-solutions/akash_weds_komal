@@ -1468,6 +1468,12 @@ form label {
     float: none !important;
     text-align: center;
   }
+
+  #fh5co-offcanvas a {
+    padding: 10px !important;
+    font-size: 25px;
+    text-transform: uppercase;
+}
 }
 
 #fh5co-footer .copyright .block {
@@ -1494,10 +1500,7 @@ form label {
   border-bottom: 3px solid #fff !important;
 }
 
-#fh5co-offcanvas a {
-    padding: 10px !important;
-    font-size: 25px;
-}
+
 
 #fh5co-offcanvas {
   position: absolute;
